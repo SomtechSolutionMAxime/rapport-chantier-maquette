@@ -116,26 +116,26 @@
 
 <div class="intro">
   <h1>Maquette — Rapport de chantier du contremaitre, sur telephone</h1>
-  <p><span class="tag">Maquette</span> Etape actuelle : voir avant de construire. La construction reelle (formulaires branches, sauvegarde serveur, mode hors reseau) viendra dans une etape ulterieure.</p>
+  <p><span class="tag">E-20260910-0005</span><span class="tag">P-20260810-0001</span> Cette semaine : voir avant de construire. La construction reelle (formulaires branches, sauvegarde serveur, mode hors reseau) est prevue semaine du 28 septembre.</p>
   <p>Cliquez les etapes ci-dessous, ou les boutons dans le telephone, pour parcourir l'ecran de A a Z comme le ferait un contremaitre en fin de journee.</p>
 </div>
 <div class="nav-etapes" id="nav-etapes"></div>
 
 <div class="phone-wrap">
   <div class="phone">
-    <div class="statusbar"><span>17:42</span><span>Entreprise</span></div>
+    <div class="statusbar"><span>17:42</span><span>Progex</span></div>
 
     <!-- 0. Accueil -->
     <div class="ecran actif" data-ecran="0">
       <div class="entete">
         <div class="titre">Mon rapport du jour</div>
-        <div class="sous">Vendredi (date d'exemple)</div>
+        <div class="sous">Vendredi 18 septembre</div>
       </div>
       <div class="contenu">
         <h2 class="section">Chantier detecte</h2>
         <div class="grand-bouton">
-          <div class="chantier">Chantier 102 — Rue Exemple</div>
-          <div class="date">Date d'exemple</div>
+          <div class="chantier">102 — Rue Principale, Terrebonne</div>
+          <div class="date">Vendredi 18 septembre 2026</div>
           <span class="statut-pill">Brouillon commence a 16:58</span>
         </div>
         <div class="bandeau-info" style="margin-top:14px;">Pas le bon chantier ? Touchez la carte pour en choisir un autre parmi ceux ou vous etes affecte aujourd'hui.</div>
@@ -149,7 +149,7 @@
     <div class="ecran" data-ecran="1">
       <div class="entete">
         <div class="titre">Meteo &amp; equipe</div>
-        <div class="sous">Chantier 102 — Rue Exemple</div>
+        <div class="sous">102 — Rue Principale</div>
       </div>
       <div class="progress">
         <span class="fait"></span><span class="courant"></span><span></span><span></span><span></span>
@@ -168,27 +168,27 @@
         <div class="bandeau-info bandeau-attn">3 sur 5 hommes ont deja saisi leurs heures. Vous pouvez continuer sans attendre les autres — ajoutez-les vous-meme au besoin.</div>
 
         <div class="carte-homme">
-          <div class="ligne1"><span class="nom">Employé A</span><span class="badge badge-saisi">Saisi par lui</span></div>
+          <div class="ligne1"><span class="nom">Marc Bélanger</span><span class="badge badge-saisi">Saisi par lui</span></div>
           <div class="activite">Excavation — 8,0 h</div>
         </div>
 
         <div class="carte-homme">
-          <div class="ligne1"><span class="nom">Employé B</span><span class="badge badge-corrige">Corrige par vous</span></div>
+          <div class="ligne1"><span class="nom">Denis Ouellet</span><span class="badge badge-corrige">Corrige par vous</span></div>
           <div class="activite">Coffrage</div>
           <div class="stepper">
             <button onclick="return false;">−</button>
             <div class="valeur">6,0 h</div>
             <button onclick="return false;">+</button>
           </div>
-          <div class="note-avis">🔔 Employé B a saisi 8,0 h — Employé B sera avise du changement a 6,0 h.</div>
+          <div class="note-avis">🔔 Denis a saisi 8,0 h — Denis sera avise du changement a 6,0 h.</div>
         </div>
 
         <div class="carte-homme" style="border-style:dashed;">
-          <div class="ligne1"><span class="nom" style="color:var(--gris-500);">Employé C</span><span class="badge badge-manquant">Rien saisi</span></div>
+          <div class="ligne1"><span class="nom" style="color:var(--gris-500);">Yannick Roy</span><span class="badge badge-manquant">Rien saisi</span></div>
           <div class="activite">Aucune heure pour l'instant — le rapport n'attend pas.</div>
         </div>
 
-        <button class="btn-ajouter">+ Ajouter les heures de l'Employé C</button>
+        <button class="btn-ajouter">+ Ajouter les heures de Yannick</button>
         <button class="btn-ajouter">+ Ajouter un homme absent de la liste</button>
       </div>
       <div class="pied">
@@ -201,7 +201,7 @@
     <div class="ecran" data-ecran="2">
       <div class="entete">
         <div class="titre">Equipements</div>
-        <div class="sous">Chantier 102 — Rue Exemple</div>
+        <div class="sous">102 — Rue Principale</div>
       </div>
       <div class="progress">
         <span class="fait"></span><span class="fait"></span><span class="courant"></span><span></span><span></span>
@@ -236,7 +236,7 @@
     <div class="ecran" data-ecran="3">
       <div class="entete">
         <div class="titre">Travaux du jour</div>
-        <div class="sous">Chantier 102 — Rue Exemple</div>
+        <div class="sous">102 — Rue Principale</div>
       </div>
       <div class="progress">
         <span class="fait"></span><span class="fait"></span><span class="fait"></span><span class="courant"></span><span></span>
@@ -270,7 +270,7 @@
     <div class="ecran" data-ecran="4">
       <div class="entete">
         <div class="titre">Balancement</div>
-        <div class="sous">Chantier 102 — Rue Exemple</div>
+        <div class="sous">102 — Rue Principale</div>
       </div>
       <div class="progress">
         <span class="fait"></span><span class="fait"></span><span class="fait"></span><span class="fait"></span><span class="courant"></span>
@@ -294,7 +294,7 @@
     <div class="ecran" data-ecran="5">
       <div class="entete">
         <div class="titre">Verifier et envoyer</div>
-        <div class="sous">Chantier 102 — Rue Exemple — date d'exemple</div>
+        <div class="sous">102 — Rue Principale — 18 sept.</div>
       </div>
       <div class="contenu">
         <details class="accordeon"><summary>Meteo &amp; equipe <span class="ok">5 hommes</span></summary><div class="corps">Nuageux. 30,0 h reparties sur 5 hommes (1 correction, 1 ajout par vous).</div></details>
@@ -313,12 +313,12 @@
     <div class="ecran" data-ecran="6">
       <div class="entete">
         <div class="titre">Envoye</div>
-        <div class="sous">Chantier 102 — Rue Exemple — date d'exemple</div>
+        <div class="sous">102 — Rue Principale — 18 sept.</div>
       </div>
       <div class="centre-confirm">
         <div class="rond">✓</div>
         <h3>Rapport envoye</h3>
-        <p>Le rapport du jour pour le chantier 102 est valide. Vos hommes sont avises des heures retenues.</p>
+        <p>Le rapport du 18 septembre pour le chantier 102 est valide. Vos hommes sont avises des heures retenues.</p>
       </div>
       <div class="pied">
         <button class="btn btn-principal btn-large" onclick="allerA(0)">Revenir a l'accueil</button>
@@ -330,8 +330,8 @@
 
 <div class="callout-test">
   <div class="boite">
-    <h3>Le test decisif</h3>
-    Avant de construire quoi que ce soit : faire essayer cette maquette a quelqu'un qui est reellement sur un chantier. Ce qu'il n'arrive pas a faire du premier coup, ce qu'il touche par erreur, ce qu'il ne comprend pas sans qu'on le lui explique : tout est note, y compris ce qui n'a pas marche. C'est ce retour, pas une lecture du cahier, qui dira si les cibles tactiles, le decoupage en etapes et le vocabulaire tiennent la route.
+    <h3>Le filtre decisif, demande par le client</h3>
+    Avant de construire quoi que ce soit : faire essayer cette maquette a quelqu'un qui est reellement sur un chantier — "le gars avec ses gros doigts". Ce qu'il n'arrive pas a faire du premier coup, ce qu'il touche par erreur, ce qu'il ne comprend pas sans qu'on le lui explique : tout est note, y compris ce qui n'a pas marche. C'est ce retour, pas notre lecture du cahier, qui dira si les cibles tactiles, le decoupage en etapes et le vocabulaire tiennent la route.
   </div>
 </div>
 
